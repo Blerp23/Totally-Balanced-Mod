@@ -1,0 +1,8 @@
+name: "balanced-mod"
+displayName: "Totally Balanced Mod"
+author: "Blerp23"
+description: "This is a content mod that adds new blocks. The blocks are made to be as unba**COUGH** *ahEm* BALANCED as possible for a fun experience!"
+version: "0"
+minGameVersion: "126.2"
+denendencies: [ ]
+hidden: false
