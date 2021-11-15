@@ -5,7 +5,6 @@ drag: 0.05
 accel: 0.2
 localizedName: "Energy Bomber"
 description: "Uses an EMP blast do disable enemies, them bomb them to death with fragging-frag bombs."
-
 weapons: [
 	{
 	name: "energybomber-emp"
@@ -36,9 +35,9 @@ weapons: [
 			strokeFrom: 10
 			strokeTo: 1
 			}
-		statusDuration: 250
 		status: {
 			name: "EMPified"
+			statusDuration: 250
 			speedMultiplier: 0.1
 			disarm: true
 			damage: 1
@@ -50,7 +49,6 @@ weapons: [
 				sizeFrom: 5
 				sizeTo: 0
 				colorTo: 00000
-				}
 			}
 		}
 	},
