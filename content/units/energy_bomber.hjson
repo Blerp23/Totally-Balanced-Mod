@@ -1,10 +1,11 @@
-flying: true
 type: flying
+flying: true
 speed: 3
 drag: 0.05
 accel: 0.2
-name: "Energy Bomber"
+localizedName: "Energy Bomber"
 description: "Uses an EMP blast do disable enemies, them bomb them to death with fragging-frag bombs."
+
 weapons: [
 	{
 	name: "energybomber-emp"
@@ -34,7 +35,7 @@ weapons: [
 			colorTo: "fffff"
 			strokeFrom: 10
 			strokeTo: 1
-			},
+			}
 		statusDuration: 250
 		status: {
 			name: "EMPified"
