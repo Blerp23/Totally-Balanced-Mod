@@ -51,6 +51,7 @@ bullet: {
 			colorTo: 00000
 		}
 	}
+}
 },
 {
 name: "energybomber-bomb"
