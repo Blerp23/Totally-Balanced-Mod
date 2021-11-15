@@ -1,0 +1,61 @@
+flying: true
+type: flying
+speed: 3
+drag: 0.05
+accel: 0.2
+name: "Energy Bomber"
+description: "Uses an EMP blast do disable enemies, them bomb them to death with fragging-frag bombs."
+weapons: [
+{
+name: none
+x: 0
+y: 0
+ignoreRotation: true
+shootCone: 360
+shootSound: respawn
+reload: 250
+bullet: {
+	type: BasicBulletType
+	range: 1
+	damage: 0
+	lifetime: 0
+	splashDamageRadius: 200
+	splashDamage: 40
+	pierce: true
+	pierceBuilding: true
+	maxRange: 1
+	smokeEffect: {
+		sizeFrom: 0
+		sizeTo: 200
+		lifetime: 20
+		type: WaveEffect
+		colorTo: "fffff"
+		strokeFrom: 10
+		strokeTo: 1
+		},
+	statusDuration: 250
+	status: {
+		name: "EMPified"
+		speedMultiplier: 0.1
+		disarm: true
+		damage: 1
+		effect: {
+			type: ParticleEffect
+			particles: 2
+			length: 1
+			lifetime: 10
+			sizeFrom: 5
+			sizeTo: 0
+			colorTo: 00000
+			}
+		}
+	},
+	reload: 10
+	shootSound: 
+	sprite: large-bomb
+	width: 20
+	height: 20
+	maxRange: 1
+	lifetime: 5
+}
+]
